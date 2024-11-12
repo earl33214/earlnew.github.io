@@ -1,0 +1,362 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url('black-watercolor-background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar1 {
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 250px;
+}
+
+.ps {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.navbt button {
+    background-color: transparent;
+    color: #9C9C9C;
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: monospace;
+    padding-top: 20px;
+}
+
+.socmed1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socmed1 img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px; /* Reduced margin for better spacing */
+    padding-top: 0;
+    cursor: pointer;
+}
+
+.socmed1 img:hover {
+    opacity: 0.7;
+}
+
+.head1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline {
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.subhead {
+    font-size: 18px;
+    color: #9C9C9C;
+    margin-bottom: 30px; 
+}
+
+p {
+    font-size: 18px;
+    color: #9C9C9C;
+}
+
+ul.bullets li {
+    font-size: 18px;
+    color: #9C9C9C;
+}
+
+.personalinfo {
+    margin: 50px 10%;
+    padding: 30px;
+    border: 1px #9C9C9C solid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
+.content {
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+}
+
+.info {
+    color: #9C9C9C;
+    font-size: 18px;
+}
+
+.caps {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    margin-top: 10px;
+}
+
+.pfp {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.educational {
+    margin: 50px 10%;
+    padding: 30px;
+    border: 1px #9C9C9C solid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
+.bullets {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.hover-image {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    justify-content: center;
+    align-items: start;
+    pointer-events: none;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hover-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+.educontent {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin: 30px 0;
+    gap: 1em;
+}
+
+.projects {
+    margin: 50px 10%;
+    padding: 30px;
+    border: 1px #9C9C9C solid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
+.projectcontent {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px 0;
+}
+
+.sampleproject {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.pcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom {
+    padding: 10px;
+    background-color: transparent;
+    transition: transform .2s;
+    width: 200px; 
+    height: auto;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    transform: scale(1.5); 
+}
+
+
+.work {
+    margin: 50px 10%;
+    padding: 30px;
+    border: 1px #9C9C9C solid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
+.btcontact {
+    border: solid rgb(98, 186, 27);
+    background-color: rgb(63, 142, 0);
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 25px;
+    padding: 35px 40px;
+    box-shadow: rgb(63, 142, 0) 0px 0px 50px 3px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.wcontent {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    margin: 30px 0;
+    gap: 1em;
+}
+
+footer {
+    background-color: #1B1B1B;
+    padding: 20px 0;
+    text-align: center;
+    color: #9C9C9C;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .navbt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbt button {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .socmed1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .socmed1 img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Headline adjustments */
+    .head1 {
+        width: 90%;
+    }
+
+    .headline {
+        font-size: 36px;
+        padding-top: 40px;
+    }
+
+    /* Personal info adjustments */
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pfp {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Educational content adjustments */
+    .educontent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educontent > div {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Projects adjustments */
+    .projectcontent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pcontent {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+
+    .sampleproject {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Work experience adjustments */
+    .wcontent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workcontent {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .btcontact {
+        width: 100%;
+        max-width: 300px;
+    }
+}
