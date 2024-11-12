@@ -1,5 +1,4 @@
 
-
 :root {
     --bg-color:rgb(25,29,43);
     --text-color: #fdfdfd;
@@ -20,6 +19,8 @@
   
   .projects__container{
     row-gap: 2rem;
+    justify-content: center;
+    
   }
   
   .projects__card{
@@ -98,6 +99,8 @@
   
   .projects__card:hover{
   background-color: var(--bg-color);
+  box-shadow: 10px 0px 0px 9px var(--bg-color);
+  transform: scale(1.1);
   }
   
   /*============= CERTIFICATE ==============*/
